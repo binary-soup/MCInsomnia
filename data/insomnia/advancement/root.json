@@ -3,7 +3,7 @@
     	"icon": {"id": "minecraft:red_bed"},
 		"title": "Insomnia",
 		"description": {
-			"text": "Sleep no more!",
+			"text": "Rethinking beds in Minecraft.",
 			"color": "gold"
 		},
 		"background": "minecraft:block/black_wool",
