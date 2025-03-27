@@ -1,0 +1,19 @@
+{
+    "parent": "insomnia:root",
+	"display": {
+    	"icon": {"id": "minecraft:book"},
+		"title": "Features",
+		"description": {
+            "text": "What's included!",
+            "color": "yellow"
+        },
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

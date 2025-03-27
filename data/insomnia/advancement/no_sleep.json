@@ -1,0 +1,19 @@
+{
+    "parent": "insomnia:features",
+	"display": {
+    	"icon": {"id": "minecraft:end_stone"},
+		"title": "Night Owl",
+		"description": {
+            "text": "Night can never be skipped, no matter how many players sleep in a bed.",
+            "color": "gray"
+        },
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

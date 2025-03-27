@@ -1,0 +1,19 @@
+{
+    "parent": "insomnia:features",
+	"display": {
+    	"icon": {"id": "minecraft:apple"},
+		"title": "R.E.M. Sleep",
+		"description": {
+            "text": "Regain your heath whenever you sleep!",
+            "color": "gray"
+        },
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

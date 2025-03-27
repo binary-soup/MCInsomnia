@@ -1,0 +1,19 @@
+{
+    "parent": "insomnia:features",
+	"display": {
+    	"icon": {"id": "minecraft:phantom_membrane"},
+		"title": "Bat's aren't Useless! (anymore)",
+		"description": {
+            "text": "Phantoms don't spawn, so bats drop membrane instead!",
+            "color": "gray"
+        },
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
