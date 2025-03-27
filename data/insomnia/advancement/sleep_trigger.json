@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "insomnia:enter_bed"
+		"function": "insomnia:on_sleep"
 	}
 }

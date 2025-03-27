@@ -1,0 +1,22 @@
+{
+	"display": {
+    	"icon": {"id": "minecraft:red_bed"},
+		"title": "Insomnia",
+		"description": {
+			"text": "Sleep no more!",
+			"color": "gold"
+		},
+		"background": "minecraft:textures/block/black_wool.png",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+    "rewards": {
+		"function": "insomnia:setup"
+	}
+}

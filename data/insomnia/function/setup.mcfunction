@@ -1,0 +1,2 @@
+gamerule playersSleepingPercentage 101
+gamerule doInsomnia true
