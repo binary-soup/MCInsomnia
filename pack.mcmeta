@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "Prevent the player from sleeping through the night",
+        "pack_format": 48
+    }
+}

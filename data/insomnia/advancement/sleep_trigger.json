@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"c1": {
+			"trigger": "minecraft:slept_in_bed",
+			"conditions": {
+				"dimension": "minecraft:overworld"
+			}
+		}
+	},
+	"rewards": {
+		"function": "insomnia:enter_bed"
+	}
+}
